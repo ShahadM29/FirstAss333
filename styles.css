@@ -1,6 +1,6 @@
 body{
     font-famaily:'Courier New',Courier,monospace;
-    background-color:pink ;
+    background-color:white ;
     color:black;
  }
 
@@ -16,7 +16,7 @@ nav ul li{
     margin:0 1rem;
 }
 nav ul li a{
-   text-decoration: none;
+   text-decoration:none;
    color: black;
    font-weight: bold;
    transition: color 0.3s ease;
@@ -27,11 +27,12 @@ nav ul li a:hover{
 main{
    padding:8px ;
 }
-h1,h2{
-
+h2{
+    text-align:center ;
+    color:blueviolet;
 }
 section{
-   
+    text-align:center ;
 }
 @media (min-width: 600px){
    .container {
@@ -43,4 +44,7 @@ section{
    .card {
        margin: 15px;
        flex: 1 1 200px; /* Responsive card width */
+   }
+   footer{
+    color:brown;
    }
