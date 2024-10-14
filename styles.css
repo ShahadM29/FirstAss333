@@ -1,12 +1,13 @@
 body{
     font-famaily:'Courier New',Courier,monospace;
-    background-color:white ;
+    background-color:gainsboro;
     color:black;
  }
 
  header{
     background-color: purple ;
     text-align:center ;
+
  }
  nav ul{
    list-style-type:none;
