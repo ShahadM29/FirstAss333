@@ -1,4 +1,46 @@
-h1{
+body{
+    font-famaily:'Courier New',Courier,monospace;
+    background-color:pink ;
+    color:black;
+ }
 
-    color: brown;
+ header{
+    background-color: purple ;
+    text-align:center ;
+ }
+ nav ul{
+   list-style-type:none;
 }
+nav ul li{
+    display: inline;
+    margin:0 1rem;
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+nav ul li a:hover{
+   color: red;
+}
+main{
+   padding:8px ;
+}
+h1,h2{
+
+}
+section{
+   
+}
+@media (min-width: 600px){
+   .container {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: center;
+   }}
+
+   .card {
+       margin: 15px;
+       flex: 1 1 200px; /* Responsive card width */
+   }
